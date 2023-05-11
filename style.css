@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  background-color: #282999
+}
+
+.button {
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 50px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
